@@ -1,7 +1,5 @@
 package test11;
 
-import common.Input;
-
 /**
  * 小テスト第2回 対策
  * 問題6（Test06）: 例外処理を追加する前の雛形（修正課題）
@@ -11,10 +9,10 @@ import common.Input;
  */
 public class Test06 {
     public static void main(String[] args) {
-        int x = Input.getInt();
-        int y = Input.getInt();
+        int x = Integer.parseInt(IO.readln("x = "));
+        int y = Integer.parseInt(IO.readln("y = "));
         int ans = div(x, y);
-        System.out.println(x + "÷" + y + "＝" + ans);
+        IO.println(x + "÷" + y + "＝" + ans);
     }
 
     public static int div(int x, int y) {

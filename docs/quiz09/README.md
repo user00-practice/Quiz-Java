@@ -1,4 +1,4 @@
-# 09 小テスト対策 — JavaOOP基礎
+# 09 JavaOOP基礎 小テスト対策
 
 パッケージ: `quiz01.sample`
 
