@@ -1,4 +1,4 @@
-package quiz01.sample;
+package sample09;
 
 import java.time.LocalDate;
 
@@ -12,6 +12,6 @@ import java.time.LocalDate;
 public class Sample05 {
     public static void main(String[] args) {
         Item p = new Item("X015", "PC-5613", 112000, LocalDate.of(2020, 10, 31), true);
-        System.out.println(p);
+        IO.println(p);
     }
 }

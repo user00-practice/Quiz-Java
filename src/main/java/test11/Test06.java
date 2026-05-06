@@ -1,4 +1,4 @@
-package quiz02.test;
+package test11;
 
 import common.Input;
 

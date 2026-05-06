@@ -1,6 +1,4 @@
-# 第2回 小テスト対策 — JavaOOP実践
-
-パッケージ: `quiz02.sample` / `quiz02.test`
+# 11 小テスト対策 — JavaOOP実践
 
 ---
 
@@ -10,7 +8,7 @@
 この抽象クラスは `getName()` と `area()` の **2つの抽象メソッド**を持ちます。
 
 <table>
-<tr><th align="center"><em>《abstract》Shape</em></th></tr>
+<tr><th align="center"><em>Shape</em></th></tr>
 <tr><td><code>- color : String</code></td></tr>
 <tr><td>
 # Shape(color : String)<br>
@@ -55,7 +53,10 @@
 次の抽象メソッドを持つ **`LotNumber` インターフェース**を作成してください。
 
 <table>
-<tr><th align="center">《interface》LotNumber</th></tr>
+<th align="center" style="line-height: 1.1;">
+  <span style="font-size: 0.8em;">《interface》</span><br>
+  LotNumber
+</th>
 <tr><td><em>+ getLotNumber() : String</em></td></tr>
 </table>
 
@@ -67,7 +68,7 @@
 `getLotNumber()` メソッドは `"Item Z010"` の文字列を返すようにします。
 
 <table>
-<tr><th align="center">Item　《implements LotNumber》</th></tr>
+<tr><th align="center">Item</th></tr>
 <tr><td>
 <code>- model : int</code><br>
 <code>- name : String</code>
@@ -86,7 +87,7 @@
 
 ## 問題5
 
-次の処理を行うプログラム `Test05` を作成してください。
+次の処理を行うプログラム `Sample05` を作成してください。
 
 1. `color` を `"青"`、`width` を `5.0`、`height` を `3.0` として `Rectangl` クラスのインスタンスを作成し、`Shape` 型の変数 `shp` に代入する
 2. `getName()` と `area()` を実行して、図形の名前と面積を表示する
@@ -105,7 +106,7 @@
 
 ## 問題6
 
-`quiz02.test.Test06` を修正してください。
+`sample11.Sample06` を修正してください。
 
 次のプログラムは整数 `x`、`y` を入力後 `x ÷ y` の商を計算して表示するプログラムですが、  
 `y` が `0` のときに返す値がないため、その部分が仮の戻り値になっています。
@@ -117,7 +118,7 @@
   - `try` ブロック：`div` メソッドの呼び出しと結果の出力
   - `catch` ブロック：`ArithmeticException` をキャッチし、`"0による割り算はできません"` と表示する
 
-**修正前のコード（`Test06.java`）:**
+**修正前のコード（`Sample06.java`）:**
 
 ```java
 public static void main(String[] args) {

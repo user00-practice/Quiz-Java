@@ -1,4 +1,4 @@
-package quiz02.sample;
+package sample11;
 
 /**
  * 小テスト第2回 対策
@@ -12,10 +12,10 @@ package quiz02.sample;
 public class Sample05 {
     public static void main(String[] args) {
         Shape shp = new Rectangl("青", 5.0, 3.0);
-        System.out.println("図形の名前：" + shp.getName());
-        System.out.println("図形の面積：" + shp.area());
+        IO.println("図形の名前：" + shp.getName());
+        IO.println("図形の面積：" + shp.area());
 
         LotNumber lot = new Item(10112, "AX-GP1");
-        System.out.println("ロット番号：" + lot.getLotNumber());
+        IO.println("ロット番号：" + lot.getLotNumber());
     }
 }

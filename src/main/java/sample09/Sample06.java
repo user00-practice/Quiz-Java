@@ -1,4 +1,4 @@
-package quiz01.sample;
+package sample09;
 
 import java.time.LocalDate;
 
@@ -14,8 +14,8 @@ import java.time.LocalDate;
 public class Sample06 {
     public static void main(String[] args) {
         Item p = new Item("X015", "PC-5613", 112000, LocalDate.of(2020, 10, 31), true);
-        System.out.println("商品名= " + p.getName());
-        System.out.println("個　数= " + 10);
-        System.out.println("総　額= " + p.sougaku(10));
+        IO.println("商品名= " + p.getName());
+        IO.println("個　数= " + 10);
+        IO.println("総　額= " + p.sougaku(10));
     }
 }

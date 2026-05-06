@@ -1,6 +1,4 @@
-package quiz02.sample;
-
-import common.Input;
+package sample11;
 
 /**
  * 小テスト第2回 対策
@@ -11,11 +9,11 @@ import common.Input;
  */
 public class Sample06 {
     public static void main(String[] args) {
-        int x = Input.getInt();
-        int y = Input.getInt();
+        int x = Integer.parseInt(IO.readln("x = "));
+        int y = Integer.parseInt(IO.readln("y = "));
         try {
             int ans = div(x, y);
-            System.out.println(x + "÷" + y + "＝" + ans);
+            System.out.println(x + " ÷ " + y + " = " + ans);
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }

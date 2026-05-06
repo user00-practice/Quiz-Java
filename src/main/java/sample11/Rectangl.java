@@ -1,4 +1,4 @@
-package quiz02.sample;
+package sample11;
 
 /**
  * 小テスト第2回 対策
